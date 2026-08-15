@@ -23,7 +23,7 @@ public class Projetos {
        if (custo < 100){
          System.out.println("A viagem é barata");
        }
-       else if (custo > 100 && custo <= 500){
+       else if (custo <= 500){
          System.out.println("A viagem tem o preço comum");
        }
         else if (custo > 500 && custo <= 1000){
