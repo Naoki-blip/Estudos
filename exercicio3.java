@@ -1,4 +1,4 @@
-package aks;
+
 
 import java.util.Scanner;
 
@@ -14,7 +14,7 @@ public class exercicio3 {
         System.out.println("Escreva uma frase: ");
         String texto = ler.nextLine();
         if (!texto.contains("B") && !texto.contains("b")) {
-            throw new SemLetraBException("Seu texto nao contem letra B nem b!");
+            throw new SemLetraBException();
         }
         System.out.println("Texto aceito: " + texto);
     }

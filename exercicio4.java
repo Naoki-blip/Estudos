@@ -1,4 +1,4 @@
-package aks;
+
 import java.util.Scanner;
 import java.lang.Math;
 public class exercicio4 {

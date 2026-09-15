@@ -1,4 +1,4 @@
-package aks;
+
 import java.util.Scanner;
 
 class SemNadaException extends Exception{
